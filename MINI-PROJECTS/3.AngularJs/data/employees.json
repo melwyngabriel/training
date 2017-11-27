@@ -1,0 +1,149 @@
+{
+"Employees" : 
+[{
+
+"role":"Developer",
+"name":"Romin Irani",
+"department":"E1",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"Melwyn Gabriel",
+"department":"Delivery",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"John Oliver",
+"department":"Testing",
+"type":"Temporary"
+
+},
+{
+
+"role":"Developer",
+"name":"garry swenson",
+"department":"General",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"Ruby Mara",
+"department":"Security",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"Angelina Jolie",
+"department":"General",
+"type":"Temporary"
+
+},
+{
+
+"role":"Developer",
+"name":"Chris Patt",
+"department":"Developer",
+"type":"permanent"
+
+},
+{
+
+"role":"Secretary",
+"name":"fordez vajhn",
+"department":"Security",
+"type":"Temporary"
+
+},
+{
+
+"role":"Software engineer",
+"name":"Cory Dreg",
+"department":"Development",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"Isnafur",
+"department":"Fun",
+"type":"Temporary"
+
+},
+{
+
+"role":"Business analyst",
+"name":"Cortana",
+"department":"Food",
+"type":"permanent"
+
+},{
+
+"role":"Technical support",
+"name":"Joy Haan",
+"department":"Human Resources",
+"type":"permanent"
+
+},
+{
+
+"role":"Network engineer",
+"name":"Vin Diesel",
+"department":"E1",
+"type":"Temporary"
+
+},
+{
+
+"role":"Technical consultant",
+"name":"Meryln Monroe",
+"department":"Human Resources",
+"type":"permanent"
+
+},
+{
+
+"role":"Technical sales",
+"name":"Fondy Gerald",
+"department":"Legal",
+"type":"permanent"
+
+},
+{
+
+"role":"Project manager",
+"name":"Molly",
+"department":"Human Resources",
+"type":"permanent"
+
+},
+{
+
+"role":"Developer",
+"name":"Ruby",
+"department":"Development",
+"type":"permanent"
+
+},
+{
+
+"role":"Project manager",
+"name":"Dreg",
+"department":"Delivery",
+"type":"Temporary"
+
+}
+
+
+]
+}

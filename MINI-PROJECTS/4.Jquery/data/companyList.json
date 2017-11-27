@@ -1,0 +1,20 @@
+[
+	{"name":"ofs","established":"1997","employees":"1000","revenue":"200cr"},
+	{"name":"tcs","established":"1996","employees":"100","revenue":"890cr"},
+	{"name":"wipro","established":"1995","employees":"10000","revenue":"250cr"},
+	{"name":"cts","established":"1992","employees":"10","revenue":"20cr"},
+	{"name":"capgemini","established":"1994","employees":"2021","revenue":"151cr"},
+	{"name":"bajaj","established":"1998","employees":"24564","revenue":"14510cr"},
+	{"name":"mitsubushi","established":"1997","employees":"28970","revenue":"542cr"},
+	{"name":"onida","established":"1995","employees":"212","revenue":"2540cr"},
+	{"name":"vodafone","established":"1989","employees":"2123","revenue":"27890cr"},
+	{"name":"airtel","established":"1990","employees":"21","revenue":"212cr"},
+	{"name":"idea","established":"1984","employees":"298","revenue":"270cr"},
+	{"name":"nokia","established":"1974","employees":"2120","revenue":"2000cr"},
+	{"name":"micromax","established":"1964","employees":"219","revenue":"2018cr"},
+	{"name":"acer","established":"1998","employees":"21","revenue":"20987cr"},
+	{"name":"samsung","established":"1992","employees":"5651","revenue":"221cr"},
+	{"name":"dell","established":"1993","employees":"210","revenue":"27220cr"},
+	{"name":"adaptavent","established":"1994","employees":"2890","revenue":"20321cr"},
+	{"name":"full creative","established":"1994","employees":"2150","revenue":"277cr"}
+]

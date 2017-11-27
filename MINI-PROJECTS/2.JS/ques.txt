@@ -1,0 +1,7 @@
+1. Create 2 buttons namely companies, employees.
+2. Save the json data of company in local Storage. (same for employees).
+3. When the company button is clicked, the json data which is stored in local Storage should be displayed in the browser in the form     of a table.
+4. Each and every row of the table consists of 2 buttons namely edit, delete.
+5. When edit button is clicked another div should be opened and the data of the row is collected in input boxes. This data can be editable. There are three        buttons in this div namely save, cancel, reset.
+6. When save is clicked the data should be be saved in the table. When cancel is clicked the div should be hidden. When reset is clicked the previous content should come.
+7. There  is another button 'new data' . When it is clicked new data should be created.

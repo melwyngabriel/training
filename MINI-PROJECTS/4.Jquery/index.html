@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title> JQ Recap Assignment </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	
+	<body>
+		<div>
+			<button onclick="getCompaniesList()"> Companies List </button>
+		</div>
+		<div id="companyDiv">
+			<div>
+				<input type="text" id="searchBar" /><button><span class="glyphicon glyphicon-search"></span></button>
+				
+				<button onclick="onClickAdvanceSearch()">Advance Search</button>
+			</div> 
+			<div id="advanceSearch">
+				<b>Content : </b><br/>
+				Name <input type="radio" id="name" name="content" value="name"><br/>
+				Established <input type="radio" id="established" name="content" value="established"><br/>
+				Employees <input type="radio" id="employees" name="content" value="employees"><br/>
+				Revenue <input type="radio" id="revenue" name="content" value="revenue">
+			</div>
+			<table id="companyTable" class="table table-bordered table-condensed table-striped">
+				<thead>
+					<tr>
+						<th> Name </th>
+						<th> Established </th>
+						<th> Employees </th>
+						<th> Revenue </th>
+						<th> Edit </th>
+						<th> Delete </th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<div id="editFields">
+			Name : <input type="text" id="name">
+			Established : <input type="text" id="established">
+			Employees : <input type="text" id="employees">
+			Revenue : <input type="text" id="revenue">
+			<button onclick="onSaveCompany()">Save</button>
+			<button onclick="onResetCompany()">Reset</button>
+			<button onclick="onCancelCompany()">Cancel</button>
+		</div>
+		
+		<script src="scripts/script.js"></script>
+		<script src="scripts/tablePagination.js"></script>
+		<script src="scripts/tableSorting.js"></script>
+	</body>
+</html>

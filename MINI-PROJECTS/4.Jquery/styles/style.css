@@ -1,0 +1,41 @@
+#companyDiv{
+	display : none;
+}
+
+#editFields{
+	display : none;
+}
+
+#advanceSearch{
+	display : none;
+}
+
+.focus {
+  background-color: #b0e2ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.selectedAsc {
+  background-color: #008000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.selectedDesc {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bold;
+}
+.asc:after {  content: "\25B2"; }
+.desc:after { content: "\25BC"; }
+
+.focusPagination {
+  background-color: #ff00ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.pageNumber {
+  padding: 2px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ANGULAR RECAP</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script/angular.js"></script>
+	<script src="script/dirPagination.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+	<body ng-app="myApp"  ng-controller="pagingCtrl" >
+	<div class="background-image"></div>
+		<div class="content">
+			<div class="col-md-3"><br>
+				<input class="form-control"  type="textbox" ng-model='search.name' placeholder="Search Names.."/>
+		
+				<br>
+				<br>
+			</div>
+	
+		<div class="container">	
+			
+			  <table class="table table-bordered table-hover">
+				<thead>
+					<tr>
+				<!-- Plugin for orderBy -->
+						<th ng-click="orderByMe('name')"><P>Name</p></th> 
+						<th ng-click="orderByMe('department')"><p>Department</p></th>
+						<th><p>Role</p></th>
+						<th><p>Type</p></th>
+					</tr>
+				</thead>
+				<tbody>
+				<!-- Plugin for Filter -->
+					<tr  ng-repeat="x in myData | filter:q | filter:search| orderBy:myOrderBy| startFrom:currentPage*pageSize |limitTo:pageSize">
+						<td >{{x.name}}</td>
+						<td>{{x.department}}</td>
+						<td>{{x.role}}</td>
+						<td>{{x.type}}</td>
+						
+					</tr>
+				</tbody>
+			  </table>
+			
+				
+					<button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Previous</button>
+						{{currentPage+1}}/{{numberOfPages()}}
+					<button ng-disabled="currentPage >= getData().length/pageSize - 1" ng-click="currentPage=currentPage+1">Next</button>
+					<br>
+				
+			</div>
+		</div>
+	</body>
+</html>

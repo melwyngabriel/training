@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid black;
+text-align:center;
+}
+ #editButtons,#compAdd,#empAdd,#editRec,#newRec{
+	 display:none;
+ }
+ #choose{
+	 float:left;  
+		
+	 
+ }
+#choose > input[type="button"]{
+	 
+	 width:85px;
+	 
+ }
+#empTab,#compTab{
+	display:none;
+	  float: left;
+    margin-left: 150px;
+}
+#inputArea{
+	margin:50px 0px 100px 0px;
+}
